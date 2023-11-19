@@ -4,51 +4,6 @@ public class Sort
 {
     // Sorts an array of integers using quicksort algorithm
     // Let's think step by step
-    // 1. Pick a pivot element
-    // 2. Partition the array into two subarrays:
-    //    - elements less than pivot
-    //    - elements greater than pivot
-    // 3. Recursively sort subarrays
-    public static void QuickSort(int[] array)
-    {
-        QuickSort(array, 0, array.Length - 1);
-    }
-
-    private static void QuickSort(int[] array, int low, int high)
-    {
-        if (low < high)
-        {
-            int pivot = Partition(array, low, high);
-            QuickSort(array, low, pivot - 1);
-            QuickSort(array, pivot + 1, high);
-        }
-    }
-
-    private static int Partition(int[] array, int low, int high)
-    {
-        int pivot = array[high];
-        int i = low - 1;
-
-        for (int j = low; j < high; j++)
-        {
-            if (array[j] < pivot)
-            {
-                i++;
-                Swap(array, i, j);
-            }
-        }
-
-        Swap(array, i + 1, high);
-        return i + 1;
-    }
-
-    private static void Swap(int[] array, int i, int j)
-    {
-        int temp = array[j];
-        array[j] = array[i];
-        array[i] = temp;
-    }
-
 
     // Sorts an array of integers using bubble sort algorithm
     public static void BubbleSort(int[] array)
