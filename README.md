@@ -41,3 +41,13 @@ Build docker image by using Api/Dockerfile and push to github repository
 can you use the latest github actions and use docker action?
 
 I need to reference Dockerfile at Api directory
+
+## Add comments
+///
+
+## Fault
+Is there any issues with the code?
+
+## Markdown editing
+
+## Translate code
