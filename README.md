@@ -14,6 +14,12 @@ what is the command line to create a dotnet 7.0 webapi project named "Api"
 
 dotnet new webapi -n Api -f net7.0
 
+how to add dotnet project to existing solution
+dotnet sln copilot-cs.sln add Api/Api.csproj 
+
+what is the dotnet command to reference another project
+dotnet add Api/Api.csproj reference Library/Library.cspibrary.csproj
+
 create an asp.net core 7.0 webapi project, and expose QuickSort as a REST API
 
 can you rewrite to use json input?
