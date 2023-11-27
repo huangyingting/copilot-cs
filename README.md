@@ -10,11 +10,13 @@ could you add more test cases
 could you generate a few of xunit test cases for function QuickSort, the test case function name should start with QuickSort, then use _ to concat test case, for example, if the test case is empty array, then the function name is QuickSort_EmptyArray
 
 ## Webapi
-create a asp.net core webapi project, and expose QuickSort as a REST API
+what is the command line to create a dotnet 7.0 webapi project named "Api"
+
+dotnet new webapi -n Api -f net7.0
+
+create an asp.net core 7.0 webapi project, and expose QuickSort as a REST API
 
 can you rewrite to use json input?
-
-dotnet new webapi -o Api --framework "net7.0"
 
 how to use curl to test SortController?
 
