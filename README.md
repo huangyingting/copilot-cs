@@ -2,6 +2,8 @@
 Sorts an array of integers using quicksort algorithm
 Let's think step by step
 
+Help me complete the rest part of QuickSort
+
 ## Quicksort test cases
 generate xunit test cases for QuickSort
 
