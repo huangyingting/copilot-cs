@@ -4,7 +4,9 @@ namespace CopilotCsharp.Library;
 
 public class Fault
 {
-    public static void SqlOperation(string connectionString, string userInput)
+
+    // string userInput = "Dave'; DROP TABLE Users;--"; 
+    public static void SqlInjection(string connectionString, string userInput)
     {
 
         string query = "SELECT * FROM Users WHERE Name = '" + userInput + "'";
@@ -26,23 +28,23 @@ public class Fault
         }
     }
 
-    public static void PathOperation(string fileName)
+    public static void PathTraversal(string fileName)
     {
         string path = "uploads/" + fileName;
         File.ReadAllText(path);
     }
 
-    public static void CopyOperation(byte[] input)
+    public static void BufferOverflow(byte[] input)
     {
         byte[] buffer = new byte[32];
         Buffer.BlockCopy(input, 0, buffer, 0, input.Length);
     }
 
-    public static void ErrorHandlingOpeartion()
+    public static void ImproperErrorHandling()
     {
         try
         {
-            // Operation  
+            // Risky operation  
         }
         catch (Exception)
         {
