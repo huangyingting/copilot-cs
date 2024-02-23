@@ -69,4 +69,56 @@ Is there any issues with the code?
 
 ## Github Copilot CLI
 gh copilot suggest "how to find all files less than 1MB"
+
 gh copilot suggest "how to get bitrate of mp4 file"
+
+## Azure Copilot
+### Get resource information
+"Show me all resources that are noncompliant"
+"List all virtual machines lacking enabled replication resources"
+"List all the updates applied to my Linux virtual machines"
+"List all storage accounts that are accessible from the internet"
+"List all virtual machines that are not running now"
+"Write a query that finds all changes for last 7 days."
+"Help me write an ARG query that looks up all virtual machines scale sets, sorted by creation date descending"
+"What are the public IPs of my VMs?"
+"Show me all my storage accounts in East US?"
+"List all my Resource Groups and its subscription."
+"Write a query that finds all resources that were created yesterday."
+
+### VM
+How do I reduce the cost of my virtual machine?
+Help me create a cost-efficient virtual machine
+Help me create a low cost VM
+
+### Build infrastructure and deploy workloads 
+https://portal.azure.com/#view/Microsoft_Azure_SolutionCenter/SolutionGroup.ReactView/groupid/defaultLandingVmBrowse
+
+I want to deploy a website on Azure
+
+.NET, no specific performance needs, I need autoscale, no security requiremnet, I need website available 24x7, yes, I have monthly budget for 100$
+
+minimum instance: 1, maximum instance: 10, no company policies, I need full control, I need ARM deployment template, southeast region, no data store needed, please move ahead
+
+### Storage account
+how can I make this storage account more secure
+
+### App service/functio app
+what's wrong with my function app
+
+### Generate Azure CLI scripts
+I want to use Azure CLI to create a web application
+
+### Author API Management policies
+Generate a policy to configure rate limiting with 5 requests per second.
+
+Generate a policy to remove a 'X-AspNet-Version' header from the response.
+
+### Understand service health
+Am I impacted by any service health events?
+Is there any outage impacting me?
+
+### Analyze, estimate and optimize cloud costs
+Summarize my costs for the last 6 months.
+Can you provide an estimate of our expected expenses for the next 6 months?
+Show me the resource group with the highest spending in the last 6 months.
