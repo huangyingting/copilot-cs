@@ -1,78 +1,85 @@
-## Quicksort algorithm
-Sorts an array of integers using quicksort algorithm
-Let's think step by step
+## Github Copilot Demo Scripts
 
-help me complete the rest part of QuickSort
+### Install copilot
+- Extension, search "github copilot", install
 
-## Quicksort test cases
-please reference CopilotCsharp.Library, Sort.QuickSort, generate xunit test cases
+### Basic usage
+- Comments
+- Right click
+- Generate commit message
 
-could you add more test cases
+### Diagnostic
+- Show Diagnostics...
+- Open Logs...
 
-could you generate a few of xunit test cases for function QuickSort, the test case function name should start with QuickSort, then use _ to concat test case, for example, if the test case is empty array, then the function name is QuickSort_EmptyArray
+### Explain the code
+- Github copilot web, Sort.cs, explain this file
 
-## Webapi
-what is the command line to create a dotnet 7.0 webapi project named "Api"
+### Enterprise features
+- Knowledge base
 
-dotnet new webapi -n Api -f net7.0
+### Quicksort algorithm
+- Implement the quicksort algorithm in C#, input is an array of integers, output is a sorted array of integers
+- Let's think step by step
+- Complete the rest part of QuickSort algorithm in C#
 
-dotnet sln add ./Api/Api.csproj
-dotnet sln copilot-cs.sln add Api/Api.csproj 
-dotnet sln add ./Api/Api.csproj
+### Quicksort test cases
+- Reference CopilotCsharp.Library, Sort.QuickSort, generate xunit framework based test cases
+- Add more xunit test cases
+- Please generate a few of xunit test cases for member function QuickSort, the test case function name should start with QuickSort, use '_' to concat test case scenario, for example, if the test case is empty array, then the function name is QuickSort_EmptyArray
 
-what is the dotnet command to reference Library project from Api project
-dotnet add Api/Api.csproj reference Library/Library.cspibrary.csproj
-dotnet add reference ../Library/Library.csproj
+### Webapi
+- Show me command line to create a dotnet 7.0 webapi project named "Api"
+  `dotnet new webapi -n Api -f net7.0`
+- How to add Api project to the solution file?
+  `dotnet sln add Api/Api.csproj`
+- How to reference Library project from Api project?
+  `dotnet add ./Api/Api.csproj reference ./Library/Library.csproj`
+- Create an asp.net core 7.0 webapi project, expose QuickSort from project Library as a REST API
+- Can you rewrite to use json input?
+- How to use curl to test SortController?
+  `curl -X POST -H "Content-Type: application/json" -d '{"values": [5, 2, 1, 8, 4]}' http://localhost:5160/sort/quicksort`
 
-create an asp.net core 7.0 webapi project, and expose QuickSort as a REST API
+### Regex
+Regex.cs
+- Create a function that use regex validates the format of URL
+- Highlight JustARegex, type "make the code readable"
 
-can you rewrite to use json input?
+### IaC
+- How to use bicep to deploy an Azure app service
+- Generate a bicep file to deploy Api project into Azure app service
 
-how to use curl to test SortController?
+### Docker image
+- Create a Dockerfile in Api folder, use the official dotnet core 7.0 sdk image to build Api project
+- Please use dotnet core 7.0 sdk image?
+- The docketfile needs to reference Library project as Api has dependency on it
 
-curl -X POST -H "Content-Type: application/json" -d '{"values": [5, 2, 1, 8, 4]}' http://localhost:5160/sort/quicksort
+### Github workflow
+- Create a github workflow that builds docker image by using Api/Dockerfile and push the image to github repository
+- Please use the latest github actions and use docker action?
+- Please reference Dockerfile at Api directory
+- Please reference root folder as the context and use Api/Dockerfile to build the image
 
-## Regex
-function that validates the format of URL
+### Add comments
+- ///
 
-highlight JustARegex, then "make the code readable"
+### Fault
+- Is there any issues within the highlighted code?
 
-## IaC
-Use bicep to deploy an Azure app service
-generate a bicep file to deploy Api project into app service
+### Markdown editing
+- Edit README.md file
 
-## Docker image
-Create a Dockerfile in Api folder, use the official dotnet core 7.0 sdk image to build Api project
+### Translate code
 
-can you use dotnet core 7.0 sdk image?
+### Pull request summary
+- Open a pull request, base:demo <- compare:main, click copilot button to generate PR summary
 
-I need to reference Library project as Api has dependency on it
+## Github copilot CLI
+- gh copilot suggest "how to find all files less than 1MB"
+- gh copilot suggest "how to get bitrate of mp4 file"
 
-## Github workflow
-Build docker image by using Api/Dockerfile and push to github repository
+## Azure Copilot Demo Scripts
 
-can you use the latest github actions and use docker action?
-
-I need to reference Dockerfile at Api directory
-
-I need to reference root folder as the context and use Api/Dockerfile to build the image
-
-## Add comments
-///
-
-## Fault
-Is there any issues with the code?
-
-## Markdown editing
-
-## Translate code
-
-## Github Copilot CLI
-gh copilot suggest "how to find all files less than 1MB"
-
-gh copilot suggest "how to get bitrate of mp4 file"
-
-## Azure Copilot
 ### Get resource information
 "Show me all resources that are noncompliant"
 "List all virtual machines lacking enabled replication resources"
@@ -101,17 +108,16 @@ I want to deploy a website on Azure
 minimum instance: 1, maximum instance: 10, no company policies, I need full control, I need ARM deployment template, southeast region, no data store needed, please move ahead
 
 ### Storage account
-how can I make this storage account more secure
+How can I make this storage account more secure
 
 ### App service/functio app
-what's wrong with my function app
+What's wrong with my function app
 
 ### Generate Azure CLI scripts
 I want to use Azure CLI to create a web application
 
 ### Author API Management policies
 Generate a policy to configure rate limiting with 5 requests per second.
-
 Generate a policy to remove a 'X-AspNet-Version' header from the response.
 
 ### Understand service health
