@@ -15,9 +15,6 @@
 ### Explain the code
 - Github copilot web, Sort.cs, explain this file
 
-### Enterprise features
-- Knowledge base
-
 ### Quicksort algorithm
 - Implement the quicksort algorithm in C#, input is an array of integers, output is a sorted array of integers
 - Let's think step by step
@@ -71,6 +68,15 @@ Regex.cs
 
 ### Translate code
 
+### Enterprise features
+- Knowledge base
+- Skills
+  `What skills are available?`
+  `Use the Bing skill to find the latest AI news`
+  `What does this repository do?`
+  `Explain the changes in the code of this commit`
+  `What are the advantages of the Go programming language?`
+  
 ### Pull request summary
 - Open a pull request, base:demo <- compare:main, click copilot button to generate PR summary
 
