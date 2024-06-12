@@ -2,7 +2,7 @@
 
 public class Sort
 {
-    // Sorts an array of integers using quicksort algorithm
+    // Implement the quicksort algorithm in C#, input is an array of integers, output is a sorted array of integers
     // Let's think step by step
 
     // Sorts an array of integers using bubble sort algorithm
