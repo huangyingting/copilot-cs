@@ -68,6 +68,7 @@ Regex.cs
 
 ### Translate code
 #file:README.md please translate README.md to chinese
+#file:Fault.cs translate to python
 
 ### Enterprise features
 - Knowledge base
