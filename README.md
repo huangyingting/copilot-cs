@@ -67,6 +67,7 @@ Regex.cs
 - Edit README.md file
 
 ### Translate code
+#file:README.md please translate README.md to chinese
 
 ### Enterprise features
 - Knowledge base
@@ -80,9 +81,16 @@ Regex.cs
 ### Pull request summary
 - Open a pull request, base:demo <- compare:main, click copilot button to generate PR summary
 
-## Github copilot CLI
+### Github copilot CLI
 - gh copilot suggest "how to find all files less than 1MB"
 - gh copilot suggest "how to get bitrate of mp4 file"
+- @terminal how to find all files less than 1MB
+
+### Context
+- @github what skills are available?
+- @github What does this repository do?
+- @github seach internet for updated news about python language
+- #file:Fault.cs is there any issues in my code
 
 ## Azure Copilot Demo Scripts
 
